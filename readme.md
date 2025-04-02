@@ -3,7 +3,7 @@
 2. [Tutorials and Lessons](#tutorials-and-lessons)
 3. [Tools](#tools)
 4. [Resources](#resources)
-    4.1 [Entertainment](#entertainment)
+    4.1. [Entertainment](#entertainment)
 
 ## Basics
 - instead of using [Shader Toy](https://www.shadertoy.com/), you can run shaders locally in VS Code:
