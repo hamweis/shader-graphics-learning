@@ -3,7 +3,7 @@
 2. [Tutorials and Lessons](#tutorials-and-lessons)
 3. [Tools](#tools)
 4. [Resources](#resources)
- 4.1 [Entertainment](#entertainment)
+    4.1 [Entertainment](#entertainment)
 
 ## Basics
 - instead of using [Shader Toy](https://www.shadertoy.com/), you can run shaders locally in VS Code:
@@ -23,6 +23,7 @@
 - [Kishimisu - Shader Art Coding](https://www.youtube.com/watch?v=f4s1h2YETNY)
 ### Maths
 - [SDF of a Box](https://youtu.be/62-pRVZuS5c?si=jRHiLyuIYka7qZvF)
+
 ### Engine and Gamedev related
 #### Godot
 - [CRT in Godot](https://www.youtube.com/watch?v=E401x98N6iA&list=PLDXSOdWI4Cs9UUgLxuOSXwmUu6UzxdVOe&index=3)  
@@ -33,6 +34,7 @@
 - [Moebius style 3D Rendering](https://www.youtube.com/watch?v=jlKNOirh66E&list=PLDXSOdWI4Cs9UUgLxuOSXwmUu6UzxdVOe&index=6)  
 
 ## Tools
+- [Graphtoy](https://graphtoy.com/)
 - [2d SDFs](https://iquilezles.org/articles/distfunctions2d/)
 - [Color Palette Funcion](https://iquilezles.org/articles/palettes/)
 
