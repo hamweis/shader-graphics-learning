@@ -24,6 +24,7 @@
 ### Maths
 - [SDF of a Box](https://youtu.be/62-pRVZuS5c?si=jRHiLyuIYka7qZvF)
 
+
 ### Engine and Gamedev related
 #### Godot
 - [CRT in Godot](https://www.youtube.com/watch?v=E401x98N6iA&list=PLDXSOdWI4Cs9UUgLxuOSXwmUu6UzxdVOe&index=3)  
@@ -37,10 +38,16 @@
 - [Graphtoy](https://graphtoy.com/)
 - [2d SDFs](https://iquilezles.org/articles/distfunctions2d/)
 - [Color Palette Funcion](https://iquilezles.org/articles/palettes/)
+- [Shader Toy](https://www.shadertoy.com/)
+ - [Random Number Gen in Shadertoy](https://www.shadertoy.com/view/tsf3Dn)
 
 ## Resources
+- [Book of Shaders](https://thebookofshaders.com/)
 - [Inigo Quilez Homepage](https://iquilezles.org/articles/)
 - [Inigo Quilez YouTube](https://www.youtube.com/@InigoQuilez)
+### Maths
+- [Lygia Generative Functions](https://lygia.xyz/generative)
+- [Random Number Generator - XorShift](http://www.jstatsoft.org/v08/i14/paper)
 
 ### Entertainment
 - [Acerola Perlin Noise](https://youtu.be/DxUY42r_6Cg?si=G9fb3TXKSpt5v1LJ)

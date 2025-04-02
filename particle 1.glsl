@@ -7,19 +7,20 @@ uniform float u_time;
 
 void main() {
     float x = (u_time)*0.1;
-    vec2 uv2 = (gl_FragCoord.xy*2.0 -u_resolution.xy)/u_resolution.y;
+    vec2 uv = (gl_FragCoord.xy*2.0 -u_resolution.xy)/u_resolution.y;
+    vec3 particle_collection= vec3(0.0);
 
-    vec2 uv = (gl_FragCoord.xy/u_resolution.xy);
-    uv.x-=0.5;
+    //movement
+    //uv.y-=sin(x);
     
-    uv.y-=sin(x);
-    
-
-    //Squre SDF
-    float d = length(max(abs(uv2)-.005,0.));
-    float e = length(max(abs(uv)-.005,0.));
+    for (int i = 0; i < 40; i++) {
+    vec2 uv_moving = vec2(uv.x,uv.y-=sin(x));
+    float d = length(max(abs(uv_moving)-.005,0.));
     d = 0.001 / d;
-    e = 0.001 / e;
-
-    gl_FragColor =vec4((d+e),0.4*(d+e),0.,1.0);
+    particle_collection.x+=d;
+    particle_collection.y+=d;
+    
+    }
+    
+    gl_FragColor = vec4(particle_collection,1.0);
 }
