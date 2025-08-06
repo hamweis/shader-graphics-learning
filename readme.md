@@ -45,6 +45,7 @@
 - [Book of Shaders](https://thebookofshaders.com/)
 - [Inigo Quilez Homepage](https://iquilezles.org/articles/)
 - [Inigo Quilez YouTube](https://www.youtube.com/@InigoQuilez)
+- [Leetcode Style Page for Shaders](https://shader-learning.com/)
 ### Maths
 - [Lygia Generative Functions](https://lygia.xyz/generative)
 - [Random Number Generator - XorShift](http://www.jstatsoft.org/v08/i14/paper)
