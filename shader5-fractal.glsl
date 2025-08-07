@@ -11,6 +11,8 @@ void main() {
     vec2 uv = (gl_FragCoord.xy*2.0 -u_resolution.xy)/u_resolution.y;
 
     float d = length(uv);
+    d=0.02/d;
+    d = d-sin(u_time);
     //d = d/0.02;
     
     //uv*=sin(u_time)*15.;
@@ -21,5 +23,5 @@ void main() {
     //d=0.02/d;
 
     // Output to screen
-    gl_FragColor =vec4(d,d, d, 1.0);
+    gl_FragColor =vec4(d,d, 0., 1.0);
 }

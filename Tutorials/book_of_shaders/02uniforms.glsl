@@ -10,5 +10,5 @@ void main() {
     vec2 norm = st/u_resolution;
     norm = abs(norm);
 
-    gl_FragColor = vec4(norm.xy,0.,1.0);
+    gl_FragColor = vec4(0., norm.xy,1.0);
 }

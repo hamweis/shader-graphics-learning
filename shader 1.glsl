@@ -13,7 +13,7 @@ void main() {
     //uv = fract(uv)-0.5;
 
     float d = length(uv);
-    d-=-sin(2.*u_time)/2.;
+    //d-=-sin(2.*u_time)/2.;
     d=0.02/d;
 
     // Output to screen
