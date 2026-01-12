@@ -8,7 +8,7 @@
 ## Basics
 - instead of using [Shader Toy](https://www.shadertoy.com/), you can run shaders locally in VS Code:
 - set up **VS-Code** with the following extensions:
-    - glsl-canvas
+    - glsl-canvas instead (when using vsCodium: build and manually add [shadertoy](https://github.com/stevensona/shader-toy) following [this](https://www.codestudy.net/blog/how-to-add-extensions-to-vs-codium-open-source-version-from-github-repos/#step-4-build-the-extension-from-source-if-no-vsix)
     - Shader languages support
     - WebGL GLSL Editor
     - GLSL Syntax for VS Code (*optional?*)
