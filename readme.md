@@ -16,7 +16,8 @@
     - [Offical Docs](https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.4.60.html)
 - preview shader by:
     - pressing `ctrl + p`
-    - and then typing: `>Show glslCanvas`
+    - and then typing: `>Show glslCanvas` or `Shader Toy: Preview GLSL`
+- uniforms may vary depending on the preview plugin
 
 ## Tutorials and Lessons
 ### General
