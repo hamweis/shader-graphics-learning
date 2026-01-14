@@ -7,7 +7,7 @@ uniform vec2 u_mouse;       // mouse position in screen pixels
 uniform float u_time;       // Time in seconds since load
 
 vec4 color(){
-    return vec4(1.0, 0.0, 0.0, 1.0);
+    return vec4(0.0, 1.0, 0.9176, 1.0);
 }
 
 void main() {

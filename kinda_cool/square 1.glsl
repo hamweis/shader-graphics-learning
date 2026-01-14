@@ -5,26 +5,25 @@ precision mediump float;
 uniform vec2 u_resolution;
 uniform float u_time;
 
-
-void main() {
-    vec2 uv = (gl_FragCoord.xy*2.0 -u_resolution.xy)/u_resolution.y;
+void main(){
+    vec2 uv=(gl_FragCoord.xy*2.-u_resolution.xy)/u_resolution.y;
     uv*=7.;
-
+    
     //Smooth Rotation back and forth
-    float x = 2.*smoothstep(-.8,.8,sin(u_time*3.))-1.;
-
+    float x=2.*smoothstep(-.8,.8,sin(u_time*3.))-1.;
+    
     //Clockwise Rotation
     //float x = (u_time);
-
-    uv=uv*mat2(cos(x), -sin(x),sin(x), cos(x));
+    
+    uv=uv*mat2(cos(x),-sin(x),sin(x),cos(x));
     
     float d;
-
+    
     //SQUARE First Try
     //d = pow(ceil((uv.y)),2.) + pow(ceil((uv.x)),2.);
-
+    
     //SQUARE INIGO QUILEZ
-    d = length(max(abs(uv)-.5,0.));   
+    d=length(max(abs(uv)-.5,0.));
     
     //SQAURE Second Try - Centered
     /*if ((uv.x>=0. &&uv.x<=1.)&& uv.y>=0. && uv.y<=1.) {
@@ -36,11 +35,11 @@ void main() {
     } else if ((uv.x<=0. &&uv.x>=-1.)&& uv.y<=0. && uv.y>=-1.) {
         d = 1.+pow(uv.x,2.);
     }*/
-
+    
     //d=sin(d*1.-u_time)/.1;
     d=abs(d);
-
+    
     d=.1/d;
-
-    gl_FragColor =vec4(d,0.,-0.8+d,1.);
+    
+    gl_FragColor=vec4(d,0.,-.8+d,1.);
 }
